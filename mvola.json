@@ -1,0 +1,385 @@
+{
+	"infos": {
+		"derniereMiseAJour": "31/05/2023",
+		"transactionMaximumJournalier": 20000000,
+		"transactionMaximumMensuel": 620000000,
+		"soldeMaximum": 20000000,
+		"soldeMinimum": 0
+	},
+	"transfert": [
+		{
+			"bancaire": [
+				{
+					"nom": "BNI",
+					"frais": 0
+				},
+				{
+					"nom": "Autres banques",
+					"frais": "2.5%"
+				}
+			],
+			"argent": {
+				"montantMinimum": 100,
+				"montantMaximum": 20000000,
+				"transaction": [
+					{
+						"montantInferieurOuEgaleA": 1000,
+						"frais": {
+							"versAbonneMvola": 50,
+							"versAutreMobileMoney": 200,
+							"versNonAbonne": 750
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 5000,
+						"frais": {
+							"versAbonneMvola": 50,
+							"versAutreMobileMoney": 250,
+							"versNonAbonne": 750
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 10000,
+						"frais": {
+							"versAbonneMvola": 100,
+							"versAutreMobileMoney": 500,
+							"versNonAbonne": 1400
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 25000,
+						"frais": {
+							"versAbonneMvola": 200,
+							"versAutreMobileMoney": 1000,
+							"versNonAbonne": 1800
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 50000,
+						"frais": {
+							"versAbonneMvola": 400,
+							"versAutreMobileMoney": 1500,
+							"versNonAbonne": 3000
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 100000,
+						"frais": {
+							"versAbonneMvola": 800,
+							"versAutreMobileMoney": 2000,
+							"versNonAbonne": 4800
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 250000,
+						"frais": {
+							"versAbonneMvola": 1500,
+							"versAutreMobileMoney": 3500,
+							"versNonAbonne": 10000
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 500000,
+						"frais": {
+							"versAbonneMvola": 1500,
+							"versAutreMobileMoney": 5000,
+							"versNonAbonne": 15000
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 1000000,
+						"frais": {
+							"versAbonneMvola": 2500,
+							"versAutreMobileMoney": 8500,
+							"versNonAbonne": 20000
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 2000000,
+						"frais": {
+							"versAbonneMvola": 3000,
+							"versAutreMobileMoney": 12000,
+							"versNonAbonne": 30000
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 3000000,
+						"frais": {
+							"versAbonneMvola": 4000,
+							"versAutreMobileMoney": 14500,
+							"versNonAbonne": 40000
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 4000000,
+						"frais": {
+							"versAbonneMvola": 5000,
+							"versAutreMobileMoney": 19500,
+							"versNonAbonne": 50000
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 5000000,
+						"frais": {
+							"versAbonneMvola": 6000,
+							"versAutreMobileMoney": 24000,
+							"versNonAbonne": 60000
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 6000000,
+						"frais": {
+							"versAbonneMvola": 7500,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 7000000,
+						"frais": {
+							"versAbonneMvola": 8500,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 8000000,
+						"frais": {
+							"versAbonneMvola": 10000,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 9000000,
+						"frais": {
+							"versAbonneMvola": 11500,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 10000000,
+						"frais": {
+							"versAbonneMvola": 12500,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 11000000,
+						"frais": {
+							"versAbonneMvola": 14000,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 12000000,
+						"frais": {
+							"versAbonneMvola": 15000,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 13000000,
+						"frais": {
+							"versAbonneMvola": 16000,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 14000000,
+						"frais": {
+							"versAbonneMvola": 17000,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 15000000,
+						"frais": {
+							"versAbonneMvola": 18500,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 16000000,
+						"frais": {
+							"versAbonneMvola": 20000,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 17000000,
+						"frais": {
+							"versAbonneMvola": 21000,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 18000000,
+						"frais": {
+							"versAbonneMvola": 22500,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 19000000,
+						"frais": {
+							"versAbonneMvola": 24000,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					},
+					{
+						"montantInferieurOuEgaleA": 20000000,
+						"frais": {
+							"versAbonneMvola": 25000,
+							"versAutreMobileMoney": null,
+							"versNonAbonne": null
+						}
+					}
+				]
+			}
+		}
+	],
+	"paiement": [
+		{
+			"nom": "Paiement facture JIRAMA",
+			"montantMinimum": 100,
+			"montantMaximum": 5000000,
+			"frais": 500
+		},
+		{
+			"nom": "Auto-relevé JIRAMA",
+			"montantMinimum": 100,
+			"montantMaximum": 5000000,
+			"frais": 250
+		},
+		{
+			"nom": "Paiement facture TELMA",
+			"montantMinimum": 100,
+			"montantMaximum": 5000000,
+			"frais": 0,
+			"bonus": "2% transaction, max 2000 Ar"
+		},
+		{
+			"nom": "Paiement commerçant",
+			"montantMinimum": 100,
+			"montantMaximum": 20000000,
+			"transaction": [
+				{
+					"montantInferieurOuEgaleA": 5000,
+					"frais": 50
+				},
+				{
+					"montantInferieurOuEgaleA": 10000,
+					"frais": 100
+				},
+				{
+					"montantInferieurOuEgaleA": 25000,
+					"frais": 200
+				},
+				{
+					"montantInferieurOuEgaleA": 50000,
+					"frais": 400
+				},
+				{
+					"montantInferieurOuEgaleA": 100000,
+					"frais": 800
+				},
+				{
+					"montantInferieurOuEgaleA": 500000,
+					"frais": 1500
+				},
+				{
+					"montantInferieurOuEgaleA": 1000000,
+					"frais": 2500
+				},
+				{
+					"montantInferieurOuEgaleA": 2000000,
+					"frais": 3000
+				},
+				{
+					"montantInferieurOuEgaleA": 3000000,
+					"frais": 4000
+				},
+				{
+					"montantInferieurOuEgaleA": 4000000,
+					"frais": 5000
+				},
+				{
+					"montantInferieurOuEgaleA": 5000000,
+					"frais": 6000
+				},
+				{
+					"montantInferieurOuEgaleA": 6000000,
+					"frais": 7500
+				},
+				{
+					"montantInferieurOuEgaleA": 7000000,
+					"frais": 8500
+				},
+				{
+					"montantInferieurOuEgaleA": 8000000,
+					"frais": 10000
+				},
+				{
+					"montantInferieurOuEgaleA": 9000000,
+					"frais": 11500
+				},
+				{
+					"montantInferieurOuEgaleA": 10000000,
+					"frais": 12500
+				},
+				{
+					"montantInferieurOuEgaleA": 11000000,
+					"frais": 14000
+				},
+				{
+					"montantInferieurOuEgaleA": 12000000,
+					"frais": 15000
+				},
+				{
+					"montantInferieurOuEgaleA": 13000000,
+					"frais": 16000
+				},
+				{
+					"montantInferieurOuEgaleA": 14000000,
+					"frais": 17000
+				},
+				{
+					"montantInferieurOuEgaleA": 15000000,
+					"frais": 18500
+				},
+				{
+					"montantInferieurOuEgaleA": 16000000,
+					"frais": 20000
+				},
+				{
+					"montantInferieurOuEgaleA": 17000000,
+					"frais": 21000
+				},
+				{
+					"montantInferieurOuEgaleA": 18000000,
+					"frais": 22500
+				},
+				{
+					"montantInferieurOuEgaleA": 19000000,
+					"frais": 24000
+				},
+				{
+					"montantInferieurOuEgaleA": 20000000,
+					"frais": 25000
+				}
+			]
+		}
+	]
+}
